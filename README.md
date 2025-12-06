@@ -23,7 +23,6 @@
 - **Structured learning:** From beginner → advanced  
 - **Hands-on examples:** Clear, real-life code snippets  
 - **Project-based learning:** Apply concepts immediately  
-- **Career-ready skills:** Python, DSA, backend, DevOps  
 
 ---
 
