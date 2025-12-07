@@ -1,0 +1,120 @@
+
+Python Variables - Complete Notes
+
+1. What is a Variable?
+   A variable is a name that stores data.
+   Example:
+   x = 10
+   name = "Saipratap"
+
+2. Variable Types
+   Python automatically detects the type (dynamic typing).
+
+   * int → whole numbers
+     x = 5
+   * float → decimal numbers
+     y = 3.14
+   * str → text
+     name = "Hello"
+   * bool → True/False
+     flag = True
+
+3. Identifiers
+   An identifier is the name given to a variable, function, or class.
+   Rules:
+   - Must start with a letter or underscore (_)
+   - Cannot start with a number
+   - Case-sensitive (myVar ≠ Myvar)
+   Example:
+   myVar = 10
+   _myvar = 20
+
+4. Variable Naming Rules
+
+   * Can contain letters, numbers, underscore
+   * Cannot use Python keywords (if, for, while, etc.)
+   * Should be meaningful
+     Example:
+     age = 25  # good
+     a = 25    # less descriptive
+
+5. Declaration and Initialization
+
+   * Declaration: creating a variable
+   * Initialization: giving it a value
+   * In Python, both happen together:
+     x = 5
+     name = "AI"
+
+6. Multiple Assignment
+
+   * Assign multiple variables at once:
+     x, y, z = 1, 2, 3
+   * Assign same value to multiple variables:
+     a = b = c = 10
+
+7. Dynamic Typing
+
+   * Python allows changing the type of a variable:
+     x = 10      # int
+     x = "Hello" # str
+
+8. Type Conversion
+
+   * Convert variable type using int(), float(), str()
+     x = 10
+     y = float(x)  # 10.0
+     z = str(x)    # "10"
+
+9. Constants (By Convention)
+
+   * Variables that should not change are written in uppercase
+     PI = 3.14
+     GRAVITY = 9.8
+
+10. Good Practices
+
+    * Use meaningful names: student_age, total_marks
+    * Avoid single letters except in loops: for i in range(5)
+    * Keep code readable
+
+11. Rules About Variable Names (Extra Notes)
+
+    * Cannot contain spaces: `my var` 
+    * Can start with an underscore: `_myvar` 
+    * Cannot use special characters: @, $, %, & 
+
+12. Comments in Variables
+
+    * Use comments to explain variables:
+      age = 25  # age of the student
+
+13. Del Keyword (Deleting Variables)
+
+    * Delete a variable using `del`
+      x = 10
+      del x  # x no longer exists
+
+14. Memory and References (Basic Concept)
+
+    * Variables store **references** to objects, not actual value
+      x = 10
+      y = x  # y points to same object as x
+
+15. Variable Scope (Intro Level)
+
+    * Local variables → defined inside a function, accessible only there
+    * Global variables → defined outside functions, accessible everywhere
+      x = 5  # global
+      def func():
+      y = 10  # local
+
+16. Using type() Function
+
+    * Check the type of a variable:
+      x = 10
+      print(type(x))  # <class 'int'>
+
+17. Python is Case-Sensitive
+
+    * myVar, Myvar, MYVAR are all **different variables**
